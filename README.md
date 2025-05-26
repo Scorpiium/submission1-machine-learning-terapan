@@ -111,8 +111,7 @@ df.shape
 Berdasarkan plot, tidak ada titik data yang keluar dari batas minimum dan maksimum, hasil shape masih menampilkan 700 baris, menandakan tidak ada data outlier.
 - EDA
      - Univariate
-![uni](images/eda_univariate.png)
-	Plot distribusi class 'User Behavior Class' dalam dataset. Terlihat bahwa distribusi kurang lebih rata untuk tiap kategori, menunjukkan bahwa dataset seimbang.
+![uni](images/eda_univariate.png) Plot distribusi class 'User Behavior Class' dalam dataset. Terlihat bahwa distribusi kurang lebih rata untuk tiap kategori, menunjukkan bahwa dataset seimbang.
      - Multivariate
 ![multi](images/eda_multi.png)
 	Pairplot digunakan untuk melihat keseluruhan hubungan antara semua fitur numerik dalam dataset. Dari plot dapat mengambil hubungan numerik yang kuat. Sebagai contoh, semakin tinggi 'App Usage Time (min/day)' dan 'Screen On Time (hours/day)' cenderung terdapat pada User Behavior Class yang tinggi juga.
