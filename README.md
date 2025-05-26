@@ -111,17 +111,14 @@ df.shape
 Berdasarkan plot, tidak ada titik data yang keluar dari batas minimum dan maksimum, hasil shape masih menampilkan 700 baris, menandakan tidak ada data outlier.
 - EDA
      - Univariate
-
-		![uni](images/eda_univariate.png)
+![uni](images/eda_univariate.png)
 	Plot distribusi class 'User Behavior Class' dalam dataset. Terlihat bahwa distribusi kurang lebih rata untuk tiap kategori, menunjukkan bahwa dataset seimbang.
      - Multivariate
-       
-		![multi](images/eda_multi.png)
+![multi](images/eda_multi.png)
 	Pairplot digunakan untuk melihat keseluruhan hubungan antara semua fitur numerik dalam dataset. Dari plot dapat mengambil hubungan numerik yang kuat. Sebagai contoh, semakin tinggi 'App Usage Time (min/day)' dan 'Screen On Time (hours/day)' cenderung terdapat pada User Behavior Class yang tinggi juga.
      - Heatmap
-       
-		![heatmap](images/eda_heatmap.png)
-	Heatmap digunakan untuk mengukur korelasi antara dua variabel numerik, dengan nilai berkisar dari:
+![heatmap](images/eda_heatmap.png)
+	Digunakan untuk mengukur korelasi antara dua variabel numerik, dengan nilai berkisar dari:
 	`+1.0` → korelasi positif sempurna
 	`0.0` → tidak ada korelasi
 	`–1.0` → korelasi negatif sempurna
