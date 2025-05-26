@@ -111,9 +111,10 @@ df.shape
 Berdasarkan plot, tidak ada titik data yang keluar dari batas minimum dan maksimum, hasil shape masih menampilkan 700 baris, menandakan tidak ada data outlier.
 - EDA
      - Univariate
-       ![univariate](images/eda_univariate.png)  
+       
+       ![uni](images/eda_univariate.png)  
      - Multivariate
-       ![univariate](images/eda_multi.png)
+       ![multi](images/eda_multi.png)
        ![heatmap](images/eda_heatmap.png)  
 
 
