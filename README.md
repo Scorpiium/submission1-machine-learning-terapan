@@ -169,3 +169,6 @@ Evaluasi Confusion Matrix:
 - KNN: Memiliki performa cukup baik dan stabil antara training dan testing.
 Terdapat penurunan dari training ke testing sebesar ~7%, yang menandakan model masih mengalami sedikit penurunan performa pada data baru, namun tetap wajar.
 - Random Forest: Memberikan hasil sempurna (100%) pada seluruh metrik evaluasi, baik di training maupun testing. Hasil ini menunjukkan bahwa model mampu belajar dan mengeneralisasi dengan sangat baik pada dataset. Namun, hal ini bisa disebabkan oleh struktur dataset yang terlalu jelas.
+
+### Kesimpulan
+Berdasarkan hasil modeling dan evaluasi, goals yang dirumuskan dalam bagian Business Understanding telah sepenuhnya tercapai. Tidak hanya berhasil membangun model klasifikasi perilaku pengguna yang akurat, namun juga mampu mengevaluasi dan memilih model terbaik (Random Forest) berdasarkan hasil metrik yang relevan. Dengan demikian, proyek ini memberikan solusi yang efektif terhadap permasalahan klasifikasi perilaku pengguna perangkat mobile.
