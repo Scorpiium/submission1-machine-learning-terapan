@@ -26,8 +26,8 @@ Bagaimana memprediksi klasifikasi perilaku pengguna perangkat mobile (dari ringa
 ### Deskripsi Dataset
 Dataset berisi 700 baris data dan 11 kolom fitur yang mencerminkan perilaku penggunaan perangkat mobile:
 
--   User ID: ID unik pengguna (tidak dipakai dalam modeling)  
--   Device Model: Tipe perangkat  
+-   User ID: ID unik pengguna 
+-   Device Model: Tipe perangkat
 -   Operating System: Android/iOS  
 -   App Usage Time (min/day): Durasi harian menggunakan aplikasi  
 -   Screen On Time (hours/day): Durasi layar menyala  
