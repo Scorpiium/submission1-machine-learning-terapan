@@ -115,7 +115,7 @@ Berdasarkan plot, tidak ada titik data yang keluar dari batas minimum dan maksim
 	Plot distribusi class 'User Behavior Class' dalam dataset. Terlihat bahwa distribusi kurang lebih rata untuk tiap kategori, menunjukkan bahwa dataset seimbang.
      - Multivariate  
 	![multi](images/eda_multi.png)  
-	Pairplot digunakan untuk melihat keseluruhan hubungan antara semua fitur numerik dalam dataset. Dari plot dapat mengambil hubungan numerik yang kuat. Sebagai contoh, semakin tinggi 'App Usage Time (min/day)' dan 'Screen On Time (hours/day)' cenderung terdapat pada User Behavior Class yang tinggi juga.
+	Pairplot digunakan untuk melihat keseluruhan hubungan antara semua fitur numerik dalam dataset. Dari plot dapat mengambil hubungan numerik yang kuat. Sebagai contoh, semakin tinggi `App Usage Time (min/day)` dan `Screen On Time (hours/day)` cenderung terdapat pada User Behavior Class yang tinggi juga.
      - Heatmap  
 	![heatmap](images/eda_heatmap.png)  
 	Digunakan untuk mengukur korelasi antara dua variabel numerik, dengan nilai berkisar dari:
@@ -160,3 +160,5 @@ Evaluasi Accuracy dan F1-Score:
 | Random Forest (RF)        |    100.00%      |    100.00%     |    100.00%    |    100.00%    |
 
 Evaluasi Confusion Matrix:
+![matrix knn](images/conf_matrix1.png)  
+![matrix rf](images/conf_matrix2.png)  
