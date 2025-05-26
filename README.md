@@ -4,6 +4,7 @@
 
 ### Latar Belakang
 Dalam era digital saat ini, penggunaan perangkat mobile telah menjadi bagian integral dari kehidupan manusia. Aktivitas seperti media sosial, streaming video, hingga mobile banking menjadikan perangkat mobile sebagai pusat aktivitas digital masyarakat. Dengan meningkatnya ketergantungan terhadap perangkat ini, penting bagi pengembang aplikasi dan penyedia layanan digital untuk memahami perilaku pengguna. Pemahaman ini tidak hanya penting untuk meningkatkan user experience (UX), tetapi juga untuk optimalisasi performa aplikasi, efisiensi energi perangkat, dan strategi personalisasi layanan.
+
 Namun, klasifikasi perilaku pengguna perangkat mobile bukanlah hal yang mudah. Data penggunaan harian seperti waktu layar aktif, konsumsi baterai, dan jumlah aplikasi yang digunakan sangat kompleks dan bervariasi antar pengguna. Oleh karena itu, diperlukan solusi berbasis machine learning untuk membantu mengkategorikan perilaku pengguna secara efisien dan akurat.
 
 ##  Business Understanding
