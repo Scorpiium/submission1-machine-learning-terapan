@@ -159,6 +159,8 @@ Evaluasi Accuracy dan F1-Score:
 | K-Nearest Neighbors (KNN) |     94.64%      |     94.65%     |     87.86%    |     87.67%    |
 | Random Forest (RF)        |    100.00%      |    100.00%     |    100.00%    |    100.00%    |
 
-Evaluasi Confusion Matrix:
-![matrix knn](images/conf_matrix1.png)  
+Evaluasi Confusion Matrix:  
+1. Matrix KNN  
+![matrix knn](images/conf_matrix1.png)
+2. Matrix Random Forest   
 ![matrix rf](images/conf_matrix2.png)  
