@@ -164,3 +164,8 @@ Evaluasi Confusion Matrix:
 ![matrix knn](images/conf_matrix1.png)
 2. Matrix Random Forest   
 ![matrix rf](images/conf_matrix2.png)  
+
+### Analisis Evaluasi Model
+- KNN: Memiliki performa cukup baik dan stabil antara training dan testing.
+Terdapat penurunan dari training ke testing sebesar ~7%, yang menandakan model masih mengalami sedikit penurunan performa pada data baru, namun tetap wajar.
+- Random Forest: Memberikan hasil sempurna (100%) pada seluruh metrik evaluasi, baik di training maupun testing. Hasil ini menunjukkan bahwa model mampu belajar dan mengeneralisasi dengan sangat baik pada dataset. Namun, hal ini bisa disebabkan oleh struktur dataset yang terlalu jelas.
