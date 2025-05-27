@@ -138,10 +138,10 @@ Tahapan yang dilakukan:
 Model yang digunakan:
 -   K-Nearest Neighbors (KNN) :
 	- Bekerja dengan mencari _K_ data latih terdekat (tetangga) dari suatu data uji, lalu memprediksi label berdasarkan mayoritas kelas dari tetangga tersebut.
-	- Parameter: Default (`n_neighbors=5`, `weights='uniform'`, `algorithm='auto'`, dan `metric='minkowski'`, `p=2`)
+	- Parameter: Default
 -   Random Forest (RF) :
 	- Algoritma berbasis ensamble yang membentuk banyak _decision tree_ secara acak, lalu menggabungkan prediksinya melalui voting mayoritas untuk meningkatkan akurasi dan mengurangi overfitting.
-	- Parameter: Default (`n_estimators=100`, dan `max_depth=None`, `random_state=42`).
+	- Parameter: Default
 
 ## Evaluasi Model
 Metrik yang digunakan:
